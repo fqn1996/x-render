@@ -23,3 +23,7 @@ toc: false
 
 form-render 有生命周期的概念，请在 onMount 这个钩子里 set。
 
+##### 3. options 选项低于3个，下拉不会出现，只显示 - ？
+
+没有定义`widget: 'select',`
+
